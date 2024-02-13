@@ -8,34 +8,34 @@ import { FaArrowRight } from "react-icons/fa";
 const Doctors = () => {
   const data = [
     {
-      img: "/src/assets/img/doc1.jpg",
-      name: "Dr. Serena Mitchell",
-      specialties: "Orthopedic Surgeon",
-    },
-    {
-      img: "/src/assets/img/doc2.jpg",
-      name: "Dr. Julian Bennett",
-      specialties: "Cardiologist",
-    },
-    {
-      img: "/src/assets/img/doc3.jpg",
-      name: "Dr. Camila Rodriguez",
-      specialties: "Pediatrician",
+      img: "/src/assets/img/doc4.jpg",
+      name: "Dr. Siva Teja Jetty",
+      specialties: "MD MSBA",
     },
     {
       img: "/src/assets/img/doc4.jpg",
-      name: "Dr. Victor Nguyen",
-      specialties: "Neurologist",
+      name: "Dr. Siva Teja Jetty",
+      specialties: "MD MSBA",
     },
     {
-      img: "/src/assets/img/doc5.jpg",
-      name: "Dr. Ethan Carter",
-      specialties: "Dermatologist",
+      img: "/src/assets/img/doc4.jpg",
+      name: "Dr. Siva Teja Jetty",
+      specialties: "MD MSBA",
     },
     {
-      img: "/src/assets/img/doc6.jpg",
-      name: "Dr. Olivia Martinez",
-      specialties: "Ophthalmologist",
+      img: "/src/assets/img/doc4.jpg",
+      name: "Dr. Siva Teja Jetty",
+      specialties: "MD MSBA",
+    },
+    {
+      img: "/src/assets/img/doc4.jpg",
+      name: "Dr. Siva Teja Jetty",
+      specialties: "MD MSBA",
+    },
+    {
+      img: "/src/assets/img/doc4.jpg",
+      name: "Dr. Siva Teja Jetty",
+      specialties: "MD MSBA",
     },
   ];
 
@@ -83,11 +83,10 @@ const Doctors = () => {
       <div className=" flex flex-col items-center lg:flex-row justify-between mb-10 lg:mb-0">
         <div>
           <h1 className=" text-4xl font-semibold text-center lg:text-start">
-            Our Doctors
+            Our Team
           </h1>
           <p className=" mt-2 text-center lg:text-start">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus,
-            quidem.
+          Meet the visionary team behind Princeton Aesthetics, where expertise meets innovation and dedication transforms beauty.
           </p>
         </div>
         <div className="flex gap-5 mt-4 lg:mt-0">

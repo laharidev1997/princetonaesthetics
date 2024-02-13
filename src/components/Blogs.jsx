@@ -7,6 +7,7 @@ import img3 from "../assets/img/blog3.jpg";
 import img4 from "../assets/img/blog4.jpg";
 import img5 from "../assets/img/blog5.jpg";
 import img6 from "../assets/img/blog6.jpg";
+import beautyblog from "../assets/img/beautyblog.jpeg";
 
 const Blogs = () => {
   return (
@@ -27,15 +28,15 @@ const Blogs = () => {
       </div>
       <div className=" my-8">
         <div className=" flex flex-wrap justify-center gap-5">
-          <BlogCard img={img1} headlines="Unraveling the Mysteries of Sleep" />
-          <BlogCard img={img2} headlines="The Heart-Healthy Diet" />
+          <BlogCard img={beautyblog} headlines="Unraveling the Mysteries of Sleep" />
+          <BlogCard img={beautyblog} headlines="The Heart-Healthy Diet" />
           <BlogCard
-            img={img3}
+            img={beautyblog}
             headlines="Understanding Pediatric Vaccinations"
           />
-          <BlogCard img={img4} headlines="Navigating Mental Health" />
-          <BlogCard img={img5} headlines="The Importance of Regular Exercise" />
-          <BlogCard img={img6} headlines="Skin Health 101" />
+          <BlogCard img={beautyblog} headlines="Navigating Mental Health" />
+          <BlogCard img={beautyblog} headlines="The Importance of Regular Exercise" />
+          <BlogCard img={beautyblog} headlines="Skin Health 101" />
         </div>
       </div>
     </div>
